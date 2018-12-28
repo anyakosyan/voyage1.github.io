@@ -1,0 +1,41 @@
+@mixin css3-prefix($property, $value) {
+	-webkit-#{$property}: $value;
+	-moz-#{$property}: $value;
+	-ms-#{$property}: $value;
+	-o-#{$property}: $value;
+	#{$property}: $value;
+}
+
+
+@mixin transition-mixin($style: all, $duration: .4s, $type: ease, $delay : 0s) {
+  @include css3-prefix('transition', $style $duration $type $delay);
+}
+
+@mixin transform-rotate($deg:-90deg) {
+  @include css3-prefix('transform', rotate($deg));
+}
+@mixin transform-translateY($axis: 10px) {
+	@include css3-prefix('transform', translateY($axis));
+}
+@mixin transform-translateX($axis: 10px) {
+	@include css3-prefix('transform', translateX($axis));
+}
+@mixin transform-scale($deg:1) {
+  @include css3-prefix('scale', scale($deg));
+}
+
+@mixin transform-scaleX($deg:1) {
+  @include css3-prefix('scaleX', scale($deg));
+}
+
+@mixin transform-scaleY($deg:1) {
+  @include css3-prefix('scaleY', scale($deg));
+}
+
+
+
+
+
+
+
+

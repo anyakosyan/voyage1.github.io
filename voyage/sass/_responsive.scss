@@ -1,0 +1,193 @@
+@media only screen and (max-width: 1770px) {
+  .block-info {
+    width: 440px;
+  }
+.info-border {
+  height: 170px;
+}
+}
+
+
+@media only screen and (max-width: 1320px) {
+  .form-box input  {
+    width: 260px;
+  }
+  .search {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+@media only screen and (max-width: 1210px) {
+.holiday {
+  display: block!important;
+  text-align: center;
+  margin-bottom: 30px;
+  &:before {
+    bottom: -80px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    @include transform-rotate(90deg);
+  }
+}
+.holiday-container {
+  padding-bottom: 30px;
+}
+  .header-slider {
+    height: 600px;
+  }
+
+
+}
+
+@media only screen and (max-width: 1000px)  {
+    .top-bar {
+      float: none!important;
+      text-align: center;
+    }
+  .top-bar-container {
+    height: 100px;
+  }
+
+  .slider-title {
+    font-size: 3rem;
+  }
+  .slider-description {
+    font-size: 1.25rem;
+  }
+  .btn {
+    font-size: 1rem;
+  }
+  .form-box {
+    display: block!important;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 30px;
+    input {
+      width: 350px;
+    }
+  }
+
+  .destination-icon, .date-icon {
+    right: -30px;
+    top: 50px;
+  }
+  .search {
+    display: block;
+    margin: 0 auto!important;
+
+  }
+}
+
+
+@media only screen and (max-width: 900px) {
+  .menu-mobile {
+    display: initial;
+  }
+  .logo-block {
+    float: none!important;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .menu {
+    position: absolute;
+    float: none!important;
+    text-align: center;
+    line-height: 60px;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    background-color: $base-color;
+    display: none;
+  }
+  .menu ul li{
+    display: block!important;
+  }
+
+  .menu__list {
+    display: block;
+  }
+  .menu ul li:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 6px;
+  }
+
+.login li {
+  border: none;
+}
+  .register {
+    display: block!important;
+    width: 240px;
+    margin: auto!important;
+  }
+.top-bar-container {
+  padding-bottom: 200px;
+}
+}
+
+
+
+@media only screen and (min-width: 900px) {
+  .menu {
+    display: block !important;
+  }
+
+}
+@media only screen and (max-width: 820px) {
+  .slider-title {
+    font-size: 2rem;
+  }
+  .slider-description {
+    font-size: 1rem;
+  }
+  .btn {
+    font-size: 14px;
+  }
+.header-slider {
+  height: 500px;
+}
+   .slider-text {
+    width: 400px;
+  }
+}
+@media only screen and (max-width: 700px) {
+
+  .browse {
+    width: 60px;
+    height: 60px;
+  }
+
+  .sprite1 {
+    top: 22px;
+    left: 24px;
+
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .browse {
+    z-index: 10;
+  }
+
+  .form-box input  {
+    width: 100%;
+  }
+  .destination-icon, .date-icon {
+    right: 10px;
+  }
+}
+
+
+@media only screen and (max-width: 480px) {
+  .block-info {
+    width: 330px;
+  }
+
+  .info-border {
+    height: 190px;
+  }
+}
+
+

@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Voyage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="format-detection" content="date=no">
+    <meta name="format-detection" content="address=no">
+    <meta name="format-detection" content="email=no">
+    <meta property="og:image" content="images/fb-share.png" />
+    <link rel="icon" href="images/favicon.png" sizes="16x16"/>
+    <link rel="shortcut icon" href="images/favicon.ico" sizes="16x16"/>
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="images/apple-touch-57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/apple-touch-72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/apple-touch-114.png" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+    <header>
+        <div class="container-fluid top-bar-container">
+            <div class="container main-container">
+                <div class="clearfix">
+                    <div class="top-bar float-md-left">
+                        <ul class="login pl-0">
+                            <li class="agent d-inline-block position-relative">Agent Login</li>
+                            <li class="customer d-inline-block position-relative">Customer Login</li>
+                            <li class="register d-inline-block position-relative">Not a Member? <span>Register</span></li>
+                            <li class="call d-inline-block position-relative">Call Us Now :<a class="tel" href="tel:8151234567">815-123-4567</a></li>
+                        </ul>
+                    </div>
+                    <div class="top-bar float-md-right pr-0">
+                        <ul class="top-bar_icon">
+                            <li class="d-inline-block position-relative"><a class="fb d-inline-block sprite icon1" href=""></a></li>
+                            <li class="d-inline-block"><a class="tw d-inline-block sprite icon1" href=""></a></li>
+                            <li class="d-inline-block"><a class="tum d-inline-block sprite icon1" href=""></a></li>
+                            <li class="d-inline-block position-relative"><a class="gmail d-inline-block sprite icon1" href=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="container main-container menu-container position-relative">
+                <div class="clearfix">
+                    <div class="logo-block float-md-left">
+                        <a class="logo-link d-block position-absolute" href="#"><img class="logo" src="images/logo.png" alt="logo"></a>
+                    </div>
+                    <div class="menu-mobile">
+                        <span></span>
+                    </div>
+                    <nav class="menu float-md-right">
+                        <ul>
+                            <li class="d-inline-block"><a href="#" class="menu__list text-uppercase active" data-destination-id="li1">Home</a><!-- if has active add active class --></li>
+                            <li class="d-inline-block"><a href="#" class="menu__list text-uppercase" data-destination-id="li2">Destinations</a></li>
+                            <li class="d-inline-block"><a href="#" class="menu__list text-uppercase" data-destination-id="li3">Criuses</a></li>
+                            <li class="d-inline-block"><a href="#" class="menu__list text-uppercase" data-destination-id="li4">Specials</a></li>
+                            <li class="d-inline-block"><a href="#" class="menu__list text-uppercase" data-destination-id="li5">Holidays</a></li>
+                            <li class="d-inline-block"><a href="#" class="menu__list text-uppercase" data-destination-id="li6">Blog</a></li>
+                            <li class="d-inline-block">
+                                <div class="searchbar position-relative d-inline-block">
+                                    <input class="search_input position-absolute" type="text">
+                                    <a href="#" class="search_icon d-inline-block position-absolute"></a>
+                                </div>
+
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid header-slider position-relative">
+            <div class="previous browse position-absolute"><div class="previous-icon sprite1 position-absolute"></div></div>
+            <div class="next browse position-absolute"><div class="next-icon sprite1 position-absolute"></div></div>
+            <div class="slider-text position-absolute d-inline-block" id="li2">
+                <h1 class="slider-title text-uppercase">To travel is to live</h1>
+                <p class="slider-description">You Don't Need Magic to Disappear. All you need is a destination.</p>
+                <div class="map">
+                    <button type="button" class="btn map-btn text-uppercase">show on the map</button>
+                    <button type="button" class="btn info-btn text-uppercase">more info</button>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid holiday-fluid" id="li3">
+            <div class="container  holiday-container">
+                    <div class="holiday position-relative d-inline-block">
+                        <h3 class="text-uppercase holiday-title position-relative">
+                            FIND YOUR
+                            <span class="d-block">HOLYDAYS</span>
+                        </h3>
+
+                    </div>
+                <form action="#" method="post" class="d-inline-block form-box">
+                    <label for="destination">Where</label>
+                    <input type="text" id="destination" placeholder="destination" class="position-relative">
+                    <div class="destination-icon position-absolute"></div>
+                </form>
+                <form action="#" method="post" class="d-inline-block form-box">
+                    <label for="date">When</label>
+                    <input type="text" id="date" placeholder="select date" class="position-relative">
+                    <div class="date-icon position-absolute"></div>
+                </form>
+                <button type="button" class="btn search">Search</button>
+
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container-fluid">
+            <section class="offers" id="li4">
+                <h2 class="offers-tile text-uppercase">special Offers</h2>
+                <p class="offers-text">Best 2014 packages where people love to stay!</p>
+                <div class="owl-carousel position-relative owl-carousel-offers">
+                    <div class="card-block position-relative">
+                            <div class="card position-absolute">
+                                <img class="card-img-top" src="images/temp/p1.jpg" alt="USA">
+                                <div class="card-body position-relative">
+                                    <h4 class="card-title text-left">statue of liberty - USA</h4>
+                                    <p class="card-text text-left">New Destination!
+                                    </p>
+                                    <div class="more sprite2 position-absolute"></div>
+                                </div>
+                            </div>
+                    </div>
+                    <div>
+                        <div class="card">
+                            <img class="card-img-top" src="images/temp/p2.jpg" alt="Seychelles">
+                            <div class="card-body position-relative">
+                                <h4 class="card-title text-left">Spectacular Seychelles</h4>
+                                <p class="card-text text-left">New Destination!</p>
+                                <div class="more sprite2 position-absolute"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card">
+                            <img class="card-img-top" src="images/temp/p7.jpg" alt="Hong Kong & Macau">
+                            <div class="card-body position-relative">
+                                <h4 class="card-title text-left">Hong Kong & Macau</h4>
+                                <p class="card-text text-left">Bonus Extras!</p>
+                                <div class="more sprite2 position-absolute"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card">
+                            <img class="card-img-top" src="images/temp/p4.jpg" alt="Vietnam Highlights">
+                            <div class="card-body position-relative">
+                                <h4 class="card-title text-left">Vietnam Highlights</h4>
+                                <p class="card-text text-left">New Destination!</p>
+                                <div class="more sprite2 position-absolute"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card">
+                            <img class="card-img-top" src="images/temp/p8.jpg" alt="Seychelles" style="width:100%">
+                            <div class="card-body position-relative">
+                                <h4 class="card-title text-left">Spectacular Seychelles</h4>
+                                <p class="card-text text-left">New Destination!</p>
+                                <div class="more sprite2 position-absolute"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card">
+                            <img class="card-img-top" src="images/temp/p6.jpg" alt="Dubai" style="width:100%">
+                            <div class="card-body position-relative">
+                                <h4 class="card-title text-left">Dubai</h4>
+                                <p class="card-text text-left">New Destination!</p>
+                                <div class="more sprite2 position-absolute"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card">
+                            <img class="card-img-top" src="images/temp/p5.jpg" alt="USA" style="width:100%">
+                            <div class="card-body position-relative">
+                                <h4 class="card-title text-left">statue of liberty - USA</h4>
+                                <p class="card-text text-left">New Destination!</p>
+                                <div class="more sprite2 position-absolute"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card">
+                            <img class="card-img-top" src="images/temp/p3.jpg" alt="Seychelles" style="width:100%">
+                            <div class="card-body position-relative">
+                                <h4 class="card-title text-left">Spectacular Seychelles</h4>
+                                <p class="card-text text-left">New Destination!</p>
+                                <div class="more sprite2 position-absolute"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+        <div class="container-fluid type-bg position-relative" id="li5">
+            <section>
+                <h2 class="type-title text-uppercase text-center">Holidays Type</h2>
+                <p class="type-text text-center">get explore your dream to travel the world!</p>
+                <div class="container main-container">
+                    <div class="row">
+                        <div class="col-6 col-sm-4 col-lg-2 type-icons">
+                            <div class="type-icons-bg  type-icons1"></div>
+                            <h6 class="type-icons-title">Cruise</h6>
+                        </div>
+                        <div class="col-6 col-sm-4 col-lg-2 type-icons">
+                            <div class="type-icons-bg type-icons2"></div>
+                            <h6 class="type-icons-title">City Breaks</h6>
+                        </div>
+                        <div class="col-6 col-sm-4 col-lg-2 type-icons">
+                            <div class="type-icons-bg type-icons3"></div>
+                            <h6 class="type-icons-title">Honeymoon</h6>
+                        </div>
+                        <div class="col-6 col-sm-4 col-lg-2 type-icons">
+                            <div class="type-icons-bg type-icons4"></div>
+                            <h6 class="type-icons-title">Adventure</h6>
+                        </div>
+                        <div class="col-6 col-sm-4 col-lg-2 type-icons">
+                            <div class="type-icons-bg type-icons5"></div>
+                            <h6 class="type-icons-title">Safari</h6>
+                        </div>
+                        <div class="col-6 col-sm-4 col-lg-2 type-icons">
+                            <div class="type-icons-bg type-icons6"></div>
+                            <h6 class="type-icons-title">Beach</h6>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+         </div>
+        <div class="container-fluid">
+            <section class="clients text-center">
+                <h2 class="offers-tile text-uppercase">Happy Clients</h2>
+                <p class="offers-text clients-title">what customer say about us and why love our services!</p>
+
+                <div class="owl-carousel position-relative owl-carousel-clients">
+                   <div class="block-info text-left">
+                       <div class="info-border">
+                           <div class="border-top"></div>
+                           <p class="info-text">Lorem Ipsum is simply dummy text of the printing and typeset industry. Lorem Ipsum has been the industry's<span class="point">.</span> <span class="more-info">standard dummy text ever hen an with new version look.</span></p>
+                           <h6>Client Name</h6>
+                           <p>United States</p>
+                       </div>
+
+                   </div>
+                    <div class="block-info text-left">
+                        <div class="info-border">
+                            <div class="border-top"></div>
+                            <p class="info-text">Lorem Ipsum is simply dummy text of the printing and typeset industry. Lorem Ipsum has been the industry's<span class="point">.</span> <span class="more-info">standard dummy text ever hen an with new version look.</span></p>
+                            <h6>Client Name</h6>
+                            <p>United States</p>
+                        </div>
+                    </div>
+                    <div class="block-info text-left">
+                        <div class="info-border">
+                            <div class="border-top"></div>
+                            <p class="info-text">Lorem Ipsum is simply dummy text of the printing and typeset industry. Lorem Ipsum has been the industry's<span class="point">.</span> <span class="more-info">standard dummy text ever hen an with new version look.</span></p>
+                            <h6>Client Name</h6>
+                            <p>United States</p>
+                        </div>
+                    </div>
+                    <div class="block-info text-left">
+                        <div class="info-border">
+                            <div class="border-top"></div>
+
+                            <p class="info-text">Lorem Ipsum is simply dummy text of the printing and typeset industry. Lorem Ipsum has been the industry's<span class="point">.</span> <span class="more-info">standard dummy text ever hen an with new version look.</span></p>
+                            <h6>Client Name</h6>
+                            <p>United States</p>
+                        </div>
+                    </div>
+                    <div class="block-info text-left">
+                        <div class="info-border">
+                            <div class="border-top"></div>
+
+                            <p class="info-text">Lorem Ipsum is simply dummy text of the printing and typeset industry. Lorem Ipsum has been the industry's<span class="point">.</span> <span class="more-info">standard dummy text ever hen an with new version look.</span></p>
+                            <h6>Client Name</h6>
+                            <p>United States</p>
+                        </div>
+                    </div>
+                    <div class="block-info text-left">
+                        <div class="info-border">
+                            <div class="border-top"></div>
+
+                            <p class="info-text">Lorem Ipsum is simply dummy text of the printing and typeset industry. Lorem Ipsum has been the industry'<span class="point">.</span> <span class="more-info">standard dummy text ever hen an with new version look.</span></p>
+                            <h6>Client Name</h6>
+                            <p>United States</p>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+    </main>
+<footer>
+    <div class="container-fluid footer-top" id="li6">
+        <div class="container main-container">
+            <div class="row">
+                <div class="col-12 col-md-3 col-sm-6 mb-5 footer-a">
+                    <h3 class="news-title">Newsletter</h3>
+                    <p class="news-text">Duis autem vel eum iriure dolor in
+                        hendrerit in vulputate velit esse molestie consequat, vel illum dolore.
+                    </p>
+                    <input class="subscribes" type="text" placeholder="Subscribes">
+                    <button type="button" class="btn go">GO</button>
+                </div>
+                <div class="col-12 col-md-3 col-sm-6 mb-5 footer-b">
+                    <h3 class="news-title">Latest News</h3>
+                    <div class="border d-inline-block">
+                        <div class="border-bg"></div>
+                    </div>
+                    <div class="post-block d-inline-block">
+                        <p class="post-text news-text">Postformat Gallery: Multiple images</p>
+                        <p class="time">October 21, 2013 - 3:31 pm</p>
+                    </div><br>
+                    <div class="border d-inline-block">
+                        <div class="border-bg snowboarding-bg"></div>
+                    </div>
+                    <div class="post-block d-inline-block ">
+                        <p class="post-text news-text">Snowboarding is fun!</p>
+                        <p class="time">December 12, 2012 - 9:11 pm</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 col-sm-6 mb-5">
+                    <h3 class="news-title">Tags</h3>
+                    <button type="button" class="tags">Agent Login</button>
+                    <button type="button" class="tags">Customer Login</button>
+                    <button type="button" class="tags">Not a Member?</button>
+                    <button type="button" class="tags">Contact</button>
+                    <button type="button" class="tags">New Horizons</button>
+                    <button type="button" class="tags">Lanscape</button>
+                    <button type="button" class="tags">Tags</button>
+                    <button type="button" class="tags">NIce</button>
+                    <button type="button" class="tags">Some</button>
+                    <button type="button" class="tags">Portrait</button>
+                </div>
+                <div class="col-12 col-md-3 col-sm-6 mb-5">
+                    <h3 class="news-title">Address</h3>
+                    <p class="post-text news-text">DieSachbearbeiter Schönhauser Allee </p>
+                    <address class="news-text">167c,10435 Berlin Germany</address>
+                    <p class="mail">E-mail:<a href="mailto:moin@blindtextgenerator.de">moin@blindtextgenerator.de</a></p>
+               <div class="line-icons">
+                   <div class="d-inline-block"><a class="fb d-inline-block sprite icon1" href=""></a></div>
+                   <div class="d-inline-block"><a class="tw d-inline-block sprite icon1" href=""></a></div>
+                   <div class="d-inline-block"><a class="tum d-inline-block sprite icon1" href=""></a></div>
+                   <div class="d-inline-block"><a class="gmail d-inline-block sprite icon1" href=""></a></div>
+               </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container main-container footer-bottom">
+        <ul class="footer-menu text-center">
+            <li>Home</li>
+            <li>Destinations</li>
+            <li>Criuses</li>
+            <li>Specils</li>
+            <li>Holidays</li>
+            <li>Blog</li>
+            <li>Contact Us</li>
+        </ul>
+        <p class="copyright text-center">Copyright @voyage. All Right Reserved.</p>
+
+    </div>
+</footer>
+    <div id="stop" class="scrollTop">
+        <span><a href=""></a></span>
+    </div>
+</body>
+</html>
